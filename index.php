@@ -1,8 +1,9 @@
 <?php
-//MVC template from: https://www.sitepoint.com/the-mvc-pattern-and-php-1/
+//MVC structure from: https://www.sitepoint.com/the-mvc-pattern-and-php-1/
 
 require("controller.php");
 require("model.php");
+require("view.php");
 
 $model = new Model();
 $controller = new Controller($model);
